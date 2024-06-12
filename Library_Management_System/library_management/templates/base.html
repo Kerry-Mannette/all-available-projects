@@ -1,0 +1,76 @@
+<!--
+Application Name: Library Management System (LMS)
+Develop On: 28/03/2024
+Developer: Kerry Mannette
+Description: This application allows users to add, remove
+borrow, return, and display available books. The application
+was designed using HTML, CSS, JavaScript, Python, and the Django framework.
+It is a fully responsive design with the use of a flexbox and grid. Included
+in the design, a Library Management System logo as well as a favicon and a 404 page.
+-->
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Library Managment System">
+    <meta name="keywords" content="Library Managment System">
+    <meta name="auhtor" content="Kerry Mannette">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" media="all">
+    <link rel="icon" type="image/x-icon" href="{% static 'favicon/Library Management System Favicon.png' %}">
+</head>
+
+<!--
+    This is the base template of the entire application design.
+-->
+
+<body>
+<div class="filter">
+<div class="header">
+
+    <div class="logo">
+        <img src="{% static 'images/Library Management System Logo.png' %}" alt="Logo">
+    </div>
+
+    <div class="nav-bar">
+
+     <ul>
+        <li><a href="{% url 'home' %}">Menu</a></li>
+        <li><a href="{% url 'help_menu'%}">Help</a></li>
+     </ul>
+
+    </div>
+
+</div>
+
+<div>
+  {% block content%}
+
+  <!--
+    All the other pages are place between this block.
+  -->
+  
+  {% endblock content%}
+
+</div>
+
+<footer>
+    <div class="footer">
+     <p>CopyRights &copy; All Rights Reserved. Library Management System</p>   
+    </div>
+</footer>  
+
+</div> 
+
+<script src="{% static 'js/help_menu_collapsible.js' %}"></script>
+
+</body>    
+
+</html>
+
+

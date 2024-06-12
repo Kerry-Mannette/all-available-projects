@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    
+   <!--
+       This is the help menu page where the user can get
+       information on how to use the application.
+    -->
+
+    {% extends "base.html" %}
+    {% block content %}
+ 
+    <div>
+
+
+        <div class="title">
+            <h1>Help Menu</h1>
+        </div>
+        
+        <div class="help_menu_section">
+            
+            <button type="button" class="help_menu_button">How to add a book? <span id="down_arrow">&#11167</span></button>
+            <div class="help_menu_information">
+                <p>Select the add book button in the management menu, then insert the book title author, and ISBN.</p>
+            </div>
+        
+            <button type="button" class="help_menu_button">How to remove a book? <span id="down_arrow">&#11167</span></button>
+            <div class="help_menu_information">
+                <p>Select the remove book button in the management menu, then insert the book ISBN.</p>
+            </div>
+        
+            <button type="button" class="help_menu_button">How to display available books? <span id="down_arrow">&#11167</span></button>
+            <div class="help_menu_information">
+                <p>Select the display available button in the management menu, then all the available books will be displayed.</p>
+            </div>
+        
+            <button type="button" class="help_menu_button">How to borrow a book? <span id="down_arrow">&#11167</span></button>
+            <div class="help_menu_information">
+                <p>Select the borrow book button in the management menu, then insert the book title.</p>
+            </div>
+        
+            <button type="button" class="help_menu_button">How to return a book? <span id="down_arrow">&#11167</span></button>
+            <div class="help_menu_information">
+                <p>Select the return book button in the management menu, then insert the book title.</p>
+            </div>
+              
+        </div>
+        
+    {% endblock %}
+    </div>  
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="refresh" content="10; url='/'">
+</head>
+
+<body>
+
+    <!--
+        This is the 404 page which displays a page not found error.
+    -->
+
+ 
+    {% extends "event_handling.html" %}
+    {% block content %}
+    {% load static %} 
+
+    <div>
+ 
+    
+    <div class="page_not_found_error">
+        <img src="{% static 'images/Library Management System 404 Error.png' %}" alt="404 Error">
+    </div> 
+    
+        <div class="page_not_found_information">
+         <h1>Could not find page.</h1>
+         <p>Browser will automatically redirect. <br> If it does not please use the link below.</p>
+        </div>
+        <div class="page_not_found_return">
+            <button onclick="window.location.href='{% url 'home'%}';">Return</button>
+        </div>
+
+    {% endblock %}
+    </div>  
+    
+
+</body>
+
+</html>

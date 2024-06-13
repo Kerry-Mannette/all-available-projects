@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    
+<head>
+
+</head>
+
+<body>
+
+    <!--
+        This is the add book page which handles the
+        adding of books throw an HTML form.
+    -->
+
+
+    {% extends "base.html" %}
+    {% block content %}
+
+    <div>
+
+    <div class="title">
+        <h1>Add Book Form</h1>
+    </div>
+    
+    <div class="management_menu">
+    
+        <div class="add_book_form">
+            <form method="post" action="{% url 'save_book_action' %}">
+            {%csrf_token%}
+            
+            <label id="label_title" for="title">Title:</label>
+            <input type="text" name="title" id="title" placeholder="E.g. How to add a book?" maxlength="100" required> 
+            <label id="label_author" for="author">Author:</label>
+            <input type="text" name="author" id="author" placeholder="E.g. John Doe" maxlength="100" required>
+            <label id="label_isbn" for="ISBN">ISBN:</label>
+            <input type="text" name="isbn" id="isbn" placeholder="E.g. 232354678321" maxlength="40" required>
+            <div class="submit_button">
+            {{form}}    
+            <button type="submit" name="submit" id="submit">Submit</button>    
+            </div>
+            
+            </form>
+       
+        </div>
+    
+    </div>
+
+    {% endblock %}
+    </div> 
+
+</body>
+
+</html>

@@ -1,0 +1,609 @@
+/*
+Application Name: Library Management System (LMS)
+Develop On: 28/03/2024
+Developer: Kerry Mannette
+Description: This application allows users to add, remove
+borrow, return, and display available books. The application
+was designed using HTML, CSS, JavaScript, Python, and the Django framework.
+It is a fully responsive design with the use of a flexbox and grid. Included
+in the design, a Library Management System logo as well as a favicon and a 404 page.
+
+Colors Used: 
+    #ffffff;
+    aquamarine;
+    cadetblue;
+    #ffffffa4;
+*/
+
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: medium;
+background-image: url("../images/background.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+}
+
+/* Background Image Filter */
+
+.filter{
+    background-color: #ffffff2c;
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+/*Background Image Filter End */
+
+/* Logo */
+
+.logo img{
+    width: 160px;
+    height: 120px;
+    padding-left: 40px;
+    padding-top: 40px; 
+    margin: 0px;
+}
+
+/* Logo End * /
+
+/* Navigation Bar */
+
+.nav-bar{
+    padding-right: 40px;
+}
+
+.nav-bar, a, ul{
+    text-transform: uppercase;
+    list-style-type: none;
+    text-decoration: none;
+    float:right;
+    color: darkcyan;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+li{
+    float: left;
+    padding: 15px;
+
+}
+
+li, a:hover{
+    border-radius: 5px;
+    color: rgb(126, 164, 165);
+}
+
+/* Navigation Bar End*/
+
+
+/* Management Menu*/
+.title h1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+    color: darkcyan;
+    
+}
+
+.management_menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    padding-bottom: 180px;
+}
+
+.menu_button button{
+    display: block;
+    width:200px;
+    height: 40px;
+    background-color: cadetblue;
+    color: #ffffff;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.menu_button button:hover{
+    background-color:rgb(126, 164, 165);
+}
+
+/*Management Menu End*/
+
+
+/*Add Book Form*/
+.add_book_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add_book_form input{
+    display: block;
+    width: 210px;
+    height: 30px;
+    padding-left: 10px;
+    background-color: #ffffffa4;
+    color:darkcyan;
+    font-size:medium;
+    font-weight: bold;
+    border: none;
+}
+
+.add_book_form input:focus{
+    border-color: cadetblue;
+}
+
+
+.add_book_form label{
+    float: left;
+    margin-right:40px;
+    font-size:large;
+    font-weight: bold;
+    color:cadetblue;
+}
+
+.add_book_form input, label{
+    margin-bottom: 20px;
+}
+
+.add_book_form #label_title{
+    margin-right: 56px;
+}
+
+.add_book_form #label_isbn{
+    margin-right: 54px;
+}
+
+/*Add Book Form End*/
+
+
+/*Remove Book Form*/
+
+.remove_book_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.remove_book_form input{
+    display: block;
+    width: 210px;
+    height: 30px;
+    padding-left: 10px;
+    background-color: #ffffffa4;
+    color:darkcyan;
+    font-size:medium;
+    font-weight: bold;
+    border: none;
+}
+
+.remove_book_form input:focus{
+    border-color: cadetblue;
+}
+
+
+.remove_book_form label{
+    float: left;
+    margin-right:40px;
+    font-size:large;
+    font-weight: bold;
+    color:cadetblue;
+}
+
+.remove_book_form input, label{
+    margin-bottom: 20px;
+}
+
+
+.remove_book_form #label_isbn{
+    margin-right: 54px;
+}
+
+/* Remove Book Form End*/
+
+
+
+/* Display Available Books */
+
+.display_available_book{
+    display: block;
+    width: 600px;
+    height: 200px;
+  
+}
+
+.display_available_book table{
+    width: 100%;
+    height: 100px;
+   
+}
+
+.display_available_book table, th, td{
+    border: 1px solid;
+    border-color: cadetblue;
+    border-collapse: collapse;
+    padding: 10px;
+    
+    
+}
+
+.display_available_book th{
+    background-color: aquamarine;
+    color: darkcyan;
+}
+
+.display_available_book td{
+    background-color: #ffffffa4;
+    color: cadetblue;
+}
+
+/* Display Available Book End*/
+
+
+
+/* Borrow Book Form */
+
+.borrow_book_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.borrow_book_form input{
+    display: block;
+    width: 210px;
+    height: 30px;
+    padding-left: 10px;
+    background-color: #ffffffa4;
+    color:darkcyan;
+    font-size:medium;
+    font-weight: bold;
+    border: none;
+}
+
+.borrow_book_form input:focus{
+    border-color: cadetblue;
+}
+
+
+.borrow_book_form label{
+    float: left;
+    margin-right:40px;
+    font-size:large;
+    font-weight: bold;
+    color:cadetblue;
+}
+
+.borrow_book_form input, label{
+    margin-bottom: 20px;
+}
+
+
+.borrow_book_form #label_isbn{
+    margin-right: 54px;
+}
+
+/* Borrow Book Form End*/
+
+
+/* Return Book Form*/
+
+.return_book_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.return_book_form input{
+    display: block;
+    width: 210px;
+    height: 30px;
+    padding-left: 10px;
+    background-color: #ffffffa4;
+    color:darkcyan;
+    font-size:medium;
+    font-weight: bold;
+    border: none;
+}
+
+.return_book_form input:focus{
+    border-color: cadetblue;
+}
+
+
+.return_book_form label{
+    float: left;
+    margin-right:40px;
+    font-size:large;
+    font-weight: bold;
+    color:cadetblue;
+}
+
+.return_book_form input, label{
+    margin-bottom: 20px;
+}
+
+
+.return_book_form #label_isbn{
+    margin-right: 54px;
+}
+
+/* Return Book Form End */
+
+
+
+/* Help Menu Information */
+
+.help_menu_section{
+    display:grid;
+    justify-content:center;
+    margin-top: 60px;
+    padding-bottom: 140px;
+}
+
+.help_menu_button{
+    width: 300px;
+    height: 40px;
+    background-color: cadetblue;
+    color: #ffffff;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    text-align: left;
+    outline: none;
+
+}
+
+.active, .help_menu_button:hover{
+    background-color:rgb(126, 164, 165);
+} 
+
+.help_menu_information{
+    padding: 0px 18px;
+    display: none;
+    overflow: hidden;
+    width: 265px;
+    height: 100%;
+    background-color:#ffffffa4;
+    border-radius: 5px;
+}
+
+.help_menu_information p{
+    font-size: medium;
+    font-weight: bold;
+    color: cadetblue;
+}
+
+#down_arrow{
+    font-size:larger;  
+    color:#ffffff;
+    float: right;
+    
+}
+
+
+/* Help Menu Information End */
+
+
+/* Page Not Found Error*/
+
+.page_not_found_error{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:80px;
+    padding-bottom: 20px;
+   
+}
+
+.page_not_found_error img{
+    width: 240px;
+    height: 240px;
+   
+}
+
+.page_not_found_information{
+    text-align: center;
+    color:#ffffff;
+   
+}
+
+.page_not_found_information h1{
+  font-size:large;
+  font-weight:bold;
+}
+
+.page_not_found_information p{
+    font-size:medium;
+    font-weight:normal;
+
+}
+
+.page_not_found_return{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding-bottom: 140px;
+}
+
+.page_not_found_return button{
+    width: 100px;
+    height: 25px;
+    background-color:cadetblue;
+    color:#ffffff;
+    font-size: medium;
+    font-weight: bold;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.page_not_found_return button:hover{
+    background-color:rgb(126, 164, 165);
+
+}
+
+/* Page Not Found Error End */
+
+
+/* Confirmation Message */
+
+.confirmation_message{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index:1;
+    padding: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100%;
+    overflow: auto;
+    background-color:#ffffffa4;
+}
+
+.message_information{
+    display: block;
+    padding: 100px;
+    margin-bottom: 200px;
+    margin-right: 200px;
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+ 
+}
+ 
+.message_information p{
+    color: cadetblue;
+    font-size:larger;
+    font-weight: bold;
+}
+
+.close{
+    display: grid;
+    justify-content: center;
+}
+
+.close button{
+    width: 100px;
+    height: 25px;
+    background-color: cadetblue;
+    color: #ffffff;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+   
+}
+
+.close button:hover{
+    background-color:rgb(126, 164, 165) ;
+}
+
+/* Confirmation Message End */
+
+
+/* Pageination */
+.pageination{
+    margin-top: 20px;
+}
+
+.pageination a{
+   padding: 4px;
+   color: #ffffff;
+   cursor: pointer;
+}
+
+.pageination a:hover{
+    color: cadetblue;
+}
+
+.current {
+    margin-top: 20px;
+    color:#ffffff;
+}
+
+/* Pageination End */
+
+
+/* All Input */
+
+input:focus{
+    width: 280px;
+}
+
+/* All Input End */
+
+
+/* All Forms Submit Button*/
+
+.submit_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit_button button{
+   width: 100px;
+   height: 25px;
+   background-color: cadetblue;
+   color: #ffffff;
+   font-size: medium;
+   font-weight: bold;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-top: 20px;
+}
+
+.submit_button button:hover{
+    background-color:rgb(126, 164, 165);
+}
+
+
+/* All Forms Submit Button End*/
+
+
+/* Footer */
+
+.footer{
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position:fixed;
+    color: cadetblue;
+    font-size:medium;
+    font-weight: lighter;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+    background-color:#ffffff;
+  
+}
+
+/* Footer End */

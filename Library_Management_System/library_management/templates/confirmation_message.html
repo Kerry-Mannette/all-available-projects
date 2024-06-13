@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+</head>
+
+<body>
+
+   <!--
+       This is the main confirmation message page which displays either
+       successful submission or an error.
+    -->
+
+    {% extends "base.html" %}
+    {% block content %}
+ 
+    <div>
+
+        <div class="confirmation_message">
+
+            <div class="message_information">
+                
+           <p>{{ confirmation_message }}</p><br>
+           <div class="close">
+
+             <button onclick="window.location.href='{% url 'home'%}';">Close</button>   
+
+           </div>
+                
+           </div>
+         
+       </div>
+
+    {% endblock %}
+    </div>
+      
+</body>
+
+</html>

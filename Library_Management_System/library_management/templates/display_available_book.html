@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+</head>
+
+<body>
+    
+   <!--
+       This is the display available book page which display
+       all the available books in an HTML table.
+    -->
+
+    {% extends "base.html" %}
+    {% block content %}
+ 
+    <div>
+
+        <div class="title">
+            <h1>Display Available Books</h1>
+        </div>
+        
+        <div class="management_menu">
+        
+            <div class="display_available_book">
+             <table>
+                <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>ISBN</th>
+                <th>Available</th>
+                    
+                </tr>
+         {% for book in books %}
+         {% if book.available == "T"%}
+                <tr>
+                    <td>{{ book.title|capfirst }}</td>
+                    <td>{{ book.author|capfirst }}</td>
+                    <td>{{ book.isbn|capfirst }}</td>
+                    <td>{{ book.available|capfirst }}</td>
+                        
+                </tr>
+
+        {% endif %}    
+        {% endfor %} 
+
+             </table>
+
+        <div class="pageination">
+
+            <span class ="steps_link">
+                {% if books.has_previous %}
+                <a href="?page=1">&laquo; First</a>
+                <a href="?page={{ page_obj.previous_page_number }}">Previous</a>
+                {%endif%}
+
+            <span class = "current">Page {{books.number}} of {{books.paginator.num_pages}}.</span>
+                 {% if books.has_next %}
+                     <a href="?page={{ books.next_page_number}}">Next</a>
+                     <a href="?page={{ books.paginator.num_pages}}">Last &raquo</a>
+                 {%endif%}    
+        </span>
+
+        </div>
+
+           </div> 
+        
+        </div>
+        
+    {% endblock %}
+    </div>  
+    
+</body>
+
+</html>

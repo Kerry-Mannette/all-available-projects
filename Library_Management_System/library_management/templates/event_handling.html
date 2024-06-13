@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Library Managment System">
+    <meta name="keywords" content="Library Managment System">
+    <meta name="auhtor" content="Kerry Mannette">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" media="all">
+    <link rel="icon"  type="images/x-icon" ref="{% static 'favicon/Library Management System Favicon.png' %}">
+    
+</head>
+
+<!--
+    This is the event handling base template for all
+    event such as the 404 page not found error.
+-->
+
+<body>
+<div class="filter">
+
+  {% block content%}
+
+  <!--
+    All the other pages are place between this block.
+  -->
+  
+  {% endblock content%}
+
+</div>
+
+<footer>
+    <div class="footer">
+     <p>CopyRights &copy; All Rights Reserved. Library Management System</p>   
+    </div>
+</footer>  
+
+</div> 
+
+</body>    
+
+</html>

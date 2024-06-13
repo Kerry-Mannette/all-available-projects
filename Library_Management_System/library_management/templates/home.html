@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+</head>
+
+<body>
+
+   <!--
+       This is the application's main page it has the
+       management menu with all the functions available for the user.
+    -->
+
+    {% extends "base.html" %}
+    {% block content %}
+   
+    <div>
+
+    <div class="title">
+        <h1>Management Menu</h1>
+    </div>
+    
+    <div class="management_menu">
+    
+        <div class="menu_button">
+        <button onclick="window.location.href='{% url 'add_book'%}';">Add Book</button>
+        <button onclick="window.location.href='{% url 'remove_book'%}';">Remove Book</button>
+        <button onclick="window.location.href='{% url 'display_available_book'%}';" >Display Available</button>
+        <button onclick="window.location.href='{% url 'borrow_book'%}';">Borrow Book</button>
+        <button onclick="window.location.href='{% url 'return_book'%}';">Return Book</button>
+        </div>
+        
+    </div>
+    
+    {% endblock %}
+    </div>  
+
+</body>
+
+</html>

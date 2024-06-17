@@ -20,3 +20,8 @@ This application was developed using HTML, CSS, JavaScript, Python, and the Djan
 ![Library Management System-2](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/26d279fb-94b9-4b4a-8eb9-97b382df33fd)
 
 ![Library Management System-3](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/7ab0a464-5ed0-49da-857f-4040deb7ee92)
+
+# Other Applications
+This playlist showcases other applications using HTML, CSS, JavaScript, PHP, MySQL, Python, and the Django framework.
+
+https://www.youtube.com/playlist?list=PLP6id4Dy1U0NFU-8I8UQaQPmtuVR3i4Hq

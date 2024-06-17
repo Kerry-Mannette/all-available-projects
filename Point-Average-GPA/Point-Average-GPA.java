@@ -1,5 +1,5 @@
 
-package finalprojectpointaveragegpa;
+package pointaveragegpa;
 
 
 import java.util.Scanner;
@@ -8,7 +8,7 @@ import java.util.Scanner;
  *
  * @author Kerry Mannette
  */
-public class FinalProjectPointAverageGPA {
+public class PointAverageGPA {
 
     /**
      * @param args the command line arguments

@@ -13,7 +13,7 @@ This application was developed with Java.
 
 
 # Library Management System Application
-This application was developed using HTML, CSS, Javascript, Python, and the Django framework.
+This application was developed using HTML, CSS, JavaScript, Python, and the Django framework.
 
 ![Library Management System-1](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/a57ef9b7-eca5-4c3f-852c-c4d1ff5bab93)
 

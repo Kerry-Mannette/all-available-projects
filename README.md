@@ -21,7 +21,24 @@ This application was developed using HTML, CSS, JavaScript, Python, and the Djan
 
 ![Library Management System-3](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/7ab0a464-5ed0-49da-857f-4040deb7ee92)
 
-# Other Applications
-This playlist showcases other applications using HTML, CSS, JavaScript, PHP, MySQL, Python, and the Django framework.
+# Ministry of Works and Transport Application
+This application was developed using HTML, CSS, JavaScript, PHP, and MySQL.
+
+![Ministry of Works and Transport - Landing Page](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/d1b9726f-ee49-4f24-9634-9e6c0ab517bc)
+
+![Ministry of Works and Transport - Contact Page](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/5d489844-d9a7-4ce4-a03f-a9f62b7f5d93)
+
+![Ministry of Works and Transport - Login Page](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/10f36043-8615-4ad9-a4ea-a3c1558d51e3)
+
+# Phone Store Application
+This application was developed using HTML, CSS, JavaScript, Python, and the Django framework.
+
+![Phoney - Image One](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/240180db-2d08-40e5-9c12-28ce47318731)
+![Phoney - Image Three](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/926f15cb-9e89-4c8a-89dc-aedcd7c6ef61)
+![Phoney - Image Two](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/8a350d8f-3181-4045-b9e3-2ede1462c073)
+
+
+# Applications Playlist
+This playlist showcases applications using HTML, CSS, JavaScript, PHP, MySQL, Python, and the Django framework.
 
 https://www.youtube.com/playlist?list=PLP6id4Dy1U0NFU-8I8UQaQPmtuVR3i4Hq

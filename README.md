@@ -34,9 +34,8 @@ This application was developed using HTML, CSS, JavaScript, PHP, and MySQL.
 This application was developed using HTML, CSS, JavaScript, Python, and the Django framework.
 
 ![Phoney - Image One](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/240180db-2d08-40e5-9c12-28ce47318731)
-![Phoney - Image Three](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/926f15cb-9e89-4c8a-89dc-aedcd7c6ef61)
 ![Phoney - Image Two](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/8a350d8f-3181-4045-b9e3-2ede1462c073)
-
+![Phoney - Image Three](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/926f15cb-9e89-4c8a-89dc-aedcd7c6ef61)
 
 # Applications Playlist
 This playlist showcases applications using HTML, CSS, JavaScript, PHP, MySQL, Python, and the Django framework.

@@ -34,12 +34,30 @@ This application was developed using HTML, CSS, JavaScript, PHP, and MySQL.
 
 ![Ministry of Works and Transport - Login Page](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/10f36043-8615-4ad9-a4ea-a3c1558d51e3)
 
+![client_main_dashboard](https://github.com/user-attachments/assets/b774c5eb-449d-466d-8aff-3131b0566734)
+
+![client_appointment_menu](https://github.com/user-attachments/assets/30e14cd9-84a7-4bd2-8d3a-1277a9b75a78)
+
+![staff_main_dashboard](https://github.com/user-attachments/assets/d0df3d33-40f9-4cbd-b99a-8620508e9480)
+
+![staff_register_form](https://github.com/user-attachments/assets/7c55d4da-ed25-477f-8da3-915c6af58640)
+
+![administrator_dashboard](https://github.com/user-attachments/assets/78babb3c-39e1-4380-86a1-f21cc54728cf)
+
+
 # Phone Store Application
 This application was developed using HTML, CSS, JavaScript, Python, and the Django framework.
 
 ![Phoney - Image One](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/240180db-2d08-40e5-9c12-28ce47318731)
+
 ![Phoney - Image Two](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/8a350d8f-3181-4045-b9e3-2ede1462c073)
+
 ![Phoney - Image Three](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/926f15cb-9e89-4c8a-89dc-aedcd7c6ef61)
+
+![Phoney - Image Four](https://github.com/user-attachments/assets/83e59409-0e6c-4287-8f95-eb96d42bec04)
+
+![Phoney - Image Five](https://github.com/user-attachments/assets/2961b0dd-e38c-4564-a540-d6d6282bfb25)
+
 
 # Applications Playlist
 This playlist showcases applications using HTML, CSS, JavaScript, PHP, MySQL, Python, and the Django framework.

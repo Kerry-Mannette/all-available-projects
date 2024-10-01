@@ -18,17 +18,17 @@ This application was developed with Java.
 # Banking Application Management
 This application was developed with Java.
 
-![Screenshot 2024-09-30 201846](https://github.com/user-attachments/assets/39c7d4ee-5929-4926-b8b8-2f0075ce1f76)
+![Screenshot 2024-09-30 201846](https://github.com/user-attachments/assets/190f1e00-241f-4d33-b250-475eae42d953)
 
-![Screenshot 2024-09-30 201916](https://github.com/user-attachments/assets/9cca94ea-7170-4a4e-bf58-ddb6b95ddca7)
+![Screenshot 2024-09-30 201916](https://github.com/user-attachments/assets/8156d8cf-4932-4ad8-a096-57c195eb48f2)
 
-![Screenshot 2024-09-30 201940](https://github.com/user-attachments/assets/4c2b1270-7e06-416d-ade8-5856c425a9bf)
+![Screenshot 2024-09-30 201940](https://github.com/user-attachments/assets/e5a32466-e7d4-4962-a3ce-71850ab91423)
 
-![Screenshot 2024-09-30 202110](https://github.com/user-attachments/assets/ee85f7de-7bb7-420b-a423-7fb9bd9e49ee)
+![Screenshot 2024-09-30 202110](https://github.com/user-attachments/assets/baa1266f-32fe-475b-9f5d-58adcdab3d6a)
 
-![Screenshot 2024-09-30 202310](https://github.com/user-attachments/assets/970beb88-e121-4cde-b8e1-fc3fef29fc28)
+![Screenshot 2024-09-30 202310](https://github.com/user-attachments/assets/561121aa-cba9-4b8f-9aaf-7f56d7d99c5a)
 
-![Screenshot 2024-09-30 202415](https://github.com/user-attachments/assets/67bfa144-9e77-4271-9c86-db339eaa0599)
+![Screenshot 2024-09-30 202415](https://github.com/user-attachments/assets/03916ccc-632f-48a7-9d96-b7b198b92666)
 
 
 # Library Management System Application

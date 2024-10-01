@@ -13,21 +13,6 @@ This application was developed with Java.
 
 ![Bank Application-3](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/b69b14ac-9c81-451a-a07a-8cc1dda869ad)
 
-# Banking Management Application
-This application was developed using Java.
-
-![Screenshot 2024-09-30 201846](https://github.com/user-attachments/assets/7a731462-facc-48bb-8213-3b6a02e31040)
-
-![Screenshot 2024-09-30 201916](https://github.com/user-attachments/assets/58e095a2-a9d1-416c-a943-f289e3d1a512)
-
-![Screenshot 2024-09-30 201940](https://github.com/user-attachments/assets/851cbe97-21dc-4762-89e0-f50b4c4beef8)
-
-![Screenshot 2024-09-30 202110](https://github.com/user-attachments/assets/caf48b35-53d7-4462-9a7c-96bc58210818)
-
-![Screenshot 2024-09-30 202310](https://github.com/user-attachments/assets/41031f69-a1df-4721-98a5-6e99332d5c86)
-
-![Screenshot 2024-09-30 202415](https://github.com/user-attachments/assets/90e0a884-ee69-43ba-a396-7beab3bda17a)
-
 
 # Library Management System Application
 This application was developed using HTML, CSS, JavaScript, Python, and the Django framework.

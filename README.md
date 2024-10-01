@@ -4,8 +4,6 @@ This repository contains all available projects for viewing.
 # Website
 https://futuristic-designs.web.app
 
-
-
 # Bank Application
 This application was developed with Java.
 
@@ -14,22 +12,6 @@ This application was developed with Java.
 ![Bank Application-2](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/92280030-0c5b-44a9-ad0d-8c69c4be46ca)
 
 ![Bank Application-3](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/b69b14ac-9c81-451a-a07a-8cc1dda869ad)
-
-# Banking Application Management
-This application was developed with Java.
-
-![Screenshot 2024-09-30 201846](https://github.com/user-attachments/assets/190f1e00-241f-4d33-b250-475eae42d953)
-
-![Screenshot 2024-09-30 201916](https://github.com/user-attachments/assets/8156d8cf-4932-4ad8-a096-57c195eb48f2)
-
-![Screenshot 2024-09-30 201940](https://github.com/user-attachments/assets/e5a32466-e7d4-4962-a3ce-71850ab91423)
-
-![Screenshot 2024-09-30 202110](https://github.com/user-attachments/assets/baa1266f-32fe-475b-9f5d-58adcdab3d6a)
-
-![Screenshot 2024-09-30 202310](https://github.com/user-attachments/assets/561121aa-cba9-4b8f-9aaf-7f56d7d99c5a)
-
-![Screenshot 2024-09-30 202415](https://github.com/user-attachments/assets/03916ccc-632f-48a7-9d96-b7b198b92666)
-
 
 # Library Management System Application
 This application was developed using HTML, CSS, JavaScript, Python, and the Django framework.

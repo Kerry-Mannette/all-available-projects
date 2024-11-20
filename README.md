@@ -16,6 +16,29 @@ This application was developed with Java.
 
 ![Bank Application-3](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/b69b14ac-9c81-451a-a07a-8cc1dda869ad)
 
+# Bank Management Application
+This application was developed with Java
+
+![Screenshot 2024-09-30 201846](https://github.com/user-attachments/assets/76a30ae6-b3bc-432a-a6f8-ca0ddf4ed754)
+![Screenshot 2024-09-30 201916](https://github.com/user-attachments/assets/13cfd1f7-7c62-42c3-99d7-5e88f756b038)
+![Screenshot 2024-09-30 201940](https://github.com/user-attachments/assets/dd769a9d-84c5-4d62-b3a0-5b97781964ae)
+![Screenshot 2024-09-30 202110](https://github.com/user-attachments/assets/09953704-c2bb-4fc1-92e1-39aac1f30400)
+![Screenshot 2024-09-30 202310](https://github.com/user-attachments/assets/e3fc0f32-4e4c-45ee-979b-051a3c1dc2c5)
+![Screenshot 2024-09-30 202415](https://github.com/user-attachments/assets/cab80eee-c67a-4dc5-818e-8ff94604c7d3)
+
+
+# Menu Application
+This application was developed with Java
+
+![Screenshot 2024-11-03 014202](https://github.com/user-attachments/assets/61a68cc3-bda5-4714-97f4-22ecc1d7a6ef)
+![Screenshot 2024-11-03 014228](https://github.com/user-attachments/assets/bc0ef1d3-0614-425a-b013-cfe7a01b7860)
+
+# Menu Management Application
+This application was developed with Java
+
+![Screenshot 2024-11-03 014801](https://github.com/user-attachments/assets/9f9acaf2-f95b-43a1-a88f-8360167ef859)
+![Screenshot 2024-11-03 014836](https://github.com/user-attachments/assets/e60e98e2-1e08-404e-978d-21986b8e7d5f)
+
 
 # Library Management System Application
 This application was developed using HTML, CSS, JavaScript, Python, and the Django framework.
@@ -58,6 +81,20 @@ This application was developed using HTML, CSS, JavaScript, Python, and the Djan
 ![Phoney - Image Four](https://github.com/user-attachments/assets/83e59409-0e6c-4287-8f95-eb96d42bec04)
 
 ![Phoney - Image Five](https://github.com/user-attachments/assets/2961b0dd-e38c-4564-a540-d6d6282bfb25)
+
+
+# Island Views Hotel
+This application was developed using HTML, CSS, SASS
+
+![image-nine](https://github.com/user-attachments/assets/47fa94a0-7f12-428e-b7f1-be4477d5fa8f)
+
+
+# Your Views 
+This application was developed 
+
+![image-ten](https://github.com/user-attachments/assets/6482952e-6e2e-4a78-9d2d-380862870ee5)
+
+
 
 
 # Applications Playlist

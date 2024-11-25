@@ -94,3 +94,11 @@ This application was developed
 
 ![image-ten](https://github.com/user-attachments/assets/6482952e-6e2e-4a78-9d2d-380862870ee5)
 
+
+# 404 Error Page
+This application was developed using HTML, CSS, SASS
+
+![image-13](https://github.com/user-attachments/assets/7f3423cb-dd10-4ea4-a841-a9f9e51bc337)
+
+
+

@@ -1,0 +1,78 @@
+@page
+@model RazorPagesRental.Pages_Cars.AvailabilityModel
+
+@{
+    ViewData["Title"] = "Availibility";
+}
+
+<h1>Availability</h1>
+
+
+<form>
+    <p>
+        <label>Brand: <input type="text" asp-for="SearchString" /></label>
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cars[0].Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cars[0].Brand)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cars[0].Model)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cars[0].Year)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cars[0].Color)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cars[0].RentalRatePerDay)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        
+@foreach (var item in Model.Cars) {
+    @foreach (var items in Model.Rentals) {
+       if (item.Id == items.CarId){
+     
+            <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Brand)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Model)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Year)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Color)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RentalRatePerDay)
+            </td>
+            <td>
+                Not Available
+            </td>
+        </tr>
+      
+           
+        }
+
+        }
+}
+    </tbody>
+</table>

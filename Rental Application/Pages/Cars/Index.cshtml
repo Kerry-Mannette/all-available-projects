@@ -1,0 +1,74 @@
+@page
+@model RazorPagesRental.Pages_Cars.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Cars</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+<form>
+    <p>
+        <label>Brand: <input type="text" asp-for="SearchString" /></label>
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cars[0].Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cars[0].Brand)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cars[0].Model)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cars[0].Year)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cars[0].Color)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cars[0].RentalRatePerDay)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Cars) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Brand)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Model)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Year)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Color)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RentalRatePerDay)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,28 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+
+
+    <h6 class="display-6 title">Management Menu</h6>
+</div>  
+
+  <div class="management_menu">
+    <div class="menu_buttons">
+     <a asp-page="Customers/Index">  
+    <button >Customers</button></a> 
+    <a asp-page="Cars/Index">
+    <button>Cars</button></a>
+    <a asp-page="Rentals/Index">
+    <button>Rentals</button></a>
+    <a asp-page="Cars/Availability">
+    <button>Availability</button></a>
+    </div>
+
+  </div>
+
+    
+</div>

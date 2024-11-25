@@ -94,10 +94,3 @@ This application was developed
 
 ![image-ten](https://github.com/user-attachments/assets/6482952e-6e2e-4a78-9d2d-380862870ee5)
 
-
-
-
-# Applications Playlist
-This playlist showcases applications using HTML, CSS, JavaScript, PHP, MySQL, Python, and the Django framework.
-
-https://www.youtube.com/playlist?list=PLP6id4Dy1U0NFU-8I8UQaQPmtuVR3i4Hq

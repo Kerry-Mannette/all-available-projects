@@ -107,7 +107,7 @@ This application was developed using HTML, CSS, SASS
 
 
 # Your Views 
-This application was developed 
+This application was developed using HTML, CSS, SASS
 
 ![image-ten](https://github.com/user-attachments/assets/6482952e-6e2e-4a78-9d2d-380862870ee5)
 

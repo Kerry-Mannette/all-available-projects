@@ -27,6 +27,15 @@ This application was developed with Java
 ![Screenshot 2024-09-30 202415](https://github.com/user-attachments/assets/cab80eee-c67a-4dc5-818e-8ff94604c7d3)
 
 
+# Rental Management Application
+This application was developed with Java and SQL
+
+![Screenshot 2024-12-06 124705](https://github.com/user-attachments/assets/36c2d0df-dd1f-477c-88b0-1d1f2c3ef542)
+![Screenshot 2024-12-06 124740](https://github.com/user-attachments/assets/3d022e8c-85c4-45a9-9098-134c8977d996)
+![Screenshot 2024-12-06 124806](https://github.com/user-attachments/assets/4914bd80-7425-42a0-9830-3c56c04f3298)
+![Screenshot 2024-12-06 132634](https://github.com/user-attachments/assets/3355179c-3438-4bb2-b7f9-19c283df4e16)
+
+
 # Menu Application
 This application was developed with Java
 

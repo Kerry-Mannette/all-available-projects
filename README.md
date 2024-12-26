@@ -91,6 +91,11 @@ This application was developed using HTML, CSS, JavaScript, Python, and the Djan
 
 ![Phoney - Image Five](https://github.com/user-attachments/assets/2961b0dd-e38c-4564-a540-d6d6282bfb25)
 
+# Safety First Application
+This application was developed using HTML, CSS, and SASS.
+
+![Screenshot_25-12-2024_233253_127 0 0 1](https://github.com/user-attachments/assets/b6952d3c-9f61-4f07-83bd-8b02e83c6af4)
+
 
 # Rental Application
 This application was developed using HTML, CSS, JavaScrip, C#, and the .Net framework.

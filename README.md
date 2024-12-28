@@ -106,19 +106,19 @@ This application was developed using HTML, CSS, JavaScrip, C#, and the .Net fram
 
 
 # Island Views Hotel
-This application was developed using HTML, CSS, SASS
+This application was developed using HTML, CSS, and SASS.
 
 ![image-nine](https://github.com/user-attachments/assets/47fa94a0-7f12-428e-b7f1-be4477d5fa8f)
 
 
 # Your Views 
-This application was developed using HTML, CSS, SASS
+This application was developed using HTML, CSS, and SASS.
 
 ![image-ten](https://github.com/user-attachments/assets/6482952e-6e2e-4a78-9d2d-380862870ee5)
 
 
 # 404 Error Page
-This application was developed using HTML, CSS, SASS
+This application was developed using HTML, CSS, and SASS.
 
 ![image-13](https://github.com/user-attachments/assets/7f3423cb-dd10-4ea4-a841-a9f9e51bc337)
 

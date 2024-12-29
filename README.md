@@ -17,7 +17,7 @@ This application was developed with Java.
 ![Bank Application-3](https://github.com/Kerry-Mannette/all-available-projects/assets/172540016/b69b14ac-9c81-451a-a07a-8cc1dda869ad)
 
 # Bank Management Application
-This application was developed with Java
+This application was developed with Java.
 
 ![Screenshot 2024-09-30 201846](https://github.com/user-attachments/assets/76a30ae6-b3bc-432a-a6f8-ca0ddf4ed754)
 ![Screenshot 2024-09-30 201916](https://github.com/user-attachments/assets/13cfd1f7-7c62-42c3-99d7-5e88f756b038)
@@ -28,22 +28,32 @@ This application was developed with Java
 
 
 # Rental Management Application
-This application was developed with Java and SQL
+This application was developed with Java and SQL.
 
 ![Screenshot 2024-12-06 124705](https://github.com/user-attachments/assets/36c2d0df-dd1f-477c-88b0-1d1f2c3ef542)
 ![Screenshot 2024-12-06 124740](https://github.com/user-attachments/assets/3d022e8c-85c4-45a9-9098-134c8977d996)
 ![Screenshot 2024-12-06 124806](https://github.com/user-attachments/assets/4914bd80-7425-42a0-9830-3c56c04f3298)
 ![Screenshot 2024-12-06 132634](https://github.com/user-attachments/assets/3355179c-3438-4bb2-b7f9-19c283df4e16)
 
+# Rental Application For Management
+This application was developed with Java and SQL.
+
+![Screenshot 2024-12-26 012817](https://github.com/user-attachments/assets/7b5948e2-cd5e-4026-afb9-66010a6732cc)
+![Screenshot 2024-12-26 012950](https://github.com/user-attachments/assets/25242752-0465-40df-ba0c-a95ab5c372c3)
+![Screenshot 2024-12-26 012915](https://github.com/user-attachments/assets/082e14b0-70aa-4e1d-aac1-57b5ba4afff1)
+![Screenshot 2024-12-26 013421](https://github.com/user-attachments/assets/57b6c5fa-1af2-4d0e-8a52-0586c06d2ab0)
+![Screenshot 2024-12-26 013033](https://github.com/user-attachments/assets/ca4ffeca-131f-42e2-9e24-033c74fd9caf)
+
+
 
 # Menu Application
-This application was developed with Java
+This application was developed with Java.
 
 ![Screenshot 2024-11-03 014202](https://github.com/user-attachments/assets/61a68cc3-bda5-4714-97f4-22ecc1d7a6ef)
 ![Screenshot 2024-11-03 014228](https://github.com/user-attachments/assets/bc0ef1d3-0614-425a-b013-cfe7a01b7860)
 
 # Menu Management Application
-This application was developed with Java
+This application was developed with Java.
 
 ![Screenshot 2024-11-03 014801](https://github.com/user-attachments/assets/9f9acaf2-f95b-43a1-a88f-8360167ef859)
 ![Screenshot 2024-11-03 014836](https://github.com/user-attachments/assets/e60e98e2-1e08-404e-978d-21986b8e7d5f)

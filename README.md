@@ -81,12 +81,6 @@ This application was developed using HTML, CSS, JavaScript, PHP, and MySQL.
 
 ![client_appointment_menu](https://github.com/user-attachments/assets/30e14cd9-84a7-4bd2-8d3a-1277a9b75a78)
 
-![staff_main_dashboard](https://github.com/user-attachments/assets/d0df3d33-40f9-4cbd-b99a-8620508e9480)
-
-![staff_register_form](https://github.com/user-attachments/assets/7c55d4da-ed25-477f-8da3-915c6af58640)
-
-![administrator_dashboard](https://github.com/user-attachments/assets/78babb3c-39e1-4380-86a1-f21cc54728cf)
-
 
 # Phone Store Application
 This application was developed using HTML, CSS, JavaScript, Python, and the Django framework.

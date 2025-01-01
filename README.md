@@ -96,7 +96,7 @@ This application was developed using HTML, CSS, JavaScript, Python, and the Djan
 ![Phoney - Image Five](https://github.com/user-attachments/assets/2961b0dd-e38c-4564-a540-d6d6282bfb25)
 
 # Rental Application
-This application was developed using HTML, CSS, JavaScrip, C#, and the .Net framework.
+This application was developed using HTML, CSS, JavaScript, C#, and the .Net framework.
 
 ![Screenshot_25-11-2024_1428_localhost](https://github.com/user-attachments/assets/bd009180-5e99-4991-a950-7afa4311ed70)
 ![Screenshot_25-11-2024_11015_localhost](https://github.com/user-attachments/assets/c84a72a4-66e9-4625-9377-9a4514b35234)

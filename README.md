@@ -110,7 +110,8 @@ This application was developed using HTML, CSS, and SASS.
 # Island Views Hotel
 This application was developed using HTML, CSS, and SASS.
 
-![image-nine](https://github.com/user-attachments/assets/47fa94a0-7f12-428e-b7f1-be4477d5fa8f)
+![Screenshot_31-12-2024_202030_127 0 0 1 jpeg](https://github.com/user-attachments/assets/733f4caa-16de-4a90-a5d2-bb9452ebf4bc)
+
 
 
 # Your Views 

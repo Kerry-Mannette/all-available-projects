@@ -104,10 +104,10 @@ This application was developed using HTML, CSS, JavaScript, C#, and the .Net fra
 # Quotation Application
 This application was developed using HTML, CSS, JavaScript, C#, etc.Net framework.
 
-![Screenshot_3-1-2025_222713_localhost](https://github.com/user-attachments/assets/ade99b2e-35c6-4e8d-89e2-68592eb3e784)
-![Screenshot_3-1-2025_224745_localhost](https://github.com/user-attachments/assets/1283a7cc-302c-4b21-a450-0bf21da08ac5)
-![Screenshot_3-1-2025_223336_localhost](https://github.com/user-attachments/assets/de33a729-15dd-4d9e-a027-b76638cb3790)
-![Screenshot_3-1-2025_222940_localhost](https://github.com/user-attachments/assets/76673d45-0d6d-450a-be20-82bce0a9a57c)
+![Screenshot_3-1-2025_222713_localhost](https://github.com/user-attachments/assets/d7d783f6-59a4-4479-b9a4-48d151381abb)
+![Screenshot_3-1-2025_224745_localhost](https://github.com/user-attachments/assets/bb15fd06-5941-4a4d-96f2-ffeacae91caa)
+![Screenshot_3-1-2025_223336_localhost](https://github.com/user-attachments/assets/004a4732-eb88-40ac-a758-5c2336bd56fd)
+![Screenshot_3-1-2025_222940_localhost](https://github.com/user-attachments/assets/72ba7b45-dc9c-440f-abb6-7591b88b5dfc)
 
 
 
